@@ -1,0 +1,23 @@
+How to delete untracked files
+Before deleting the files first we need to run the dry run. To perform the dry run we use below command
+git clean -n
+
+to delete the files forcefully use below command 
+git clean -f filename
+
+***git reset
+git reset have 3 options to perform the operations.
+
+1.	git reset - -mixed 
+2.	git reset - -soft 
+3.	git reset - -hard
+
+1.	git reset - - mixed in this command - -mixed is optional. By default, git reset is mixed only.  If you run this command with commit id, which ever commit id we given later all commits will be return to working area.
+              git reset or git reset --mixed commit id (here –mixed is optional)
+
+2.	git reset - -soft with this command we can move the files from local repo to staging area.
+              Whichever commit id we given later all commit s will be move to staging area.
+             git reset - - soft commit id
+             
+3.	git reset - -hard if you use this command, whatever commit id we give later all commits will be delete from local repo and local machine also. Be careful when you’re using this command.
+git reset - -hard commit id
