@@ -1,0 +1,42 @@
+
+
+git branch -----> List, Create, Delete, Rename
+it will list the branches in repository.
+
+git branch branchname
+With the help of this command we will create new branches on our repository.
+
+git branch -d branchname  
+The above command will delete the branches inside the repo.
+
+git branch -m old branchname newbranchname
+It will rename the branchname.
+
+git checkout branchname
+We can switch one branch to other branch with the help of git checkout command.
+
+How to switch branch automatically while creating the branch ?
+git checkout -b branchname
+---------------------------------------------------------------------------------
+
+How to differece the two branches data?
+git diff branchname 
+
+How to merge the branches data ?
+git merge dev 
+
+-------------------------------------------------------
+****How to push the local branches to the remote repo?
+git push (alias name) branch for single branch. 
+git push aliasname --all
+-----------------------------------------------------
+git push aliasname branch 
+
+How to list the local and remote repositories ?
+git branch -a  
+
+How to list the remote repositories branches ?
+git branch -r 
+
+How to delete branch in remote repo 
+git push (alias name) :b1 

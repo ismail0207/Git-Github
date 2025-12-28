@@ -1,0 +1,40 @@
+
+How to clone the project from remote repo?
+git clone url 
+
+How To revert the previous changes.
+git restore filename 
+---------------------------------------------------
+How to create git tag
+git tag tagname
+
+git tag --> it will list the tags
+
+How to push the tags into remote repo
+git push <aliasname> <tagname>
+
+How to  push the  all the tags at onetime into remote repository
+git push aliasname --tags 
+
+
+How to delete the tags in local repo ?
+git tag -d <tagname>
+------------------------------------------------------------------------
+
+git stash
+
+To save the files without commit and it help to avoid auto merge issue.
+git stash save
+
+How to list the stash files ?
+git stash list
+
+How to unstash the files
+git stash apply <stashid>
+
+How to delete stash file
+git stash drop
+git stash clear
+
+How to stash apply and drop at single command ?
+git stash pop stashid
